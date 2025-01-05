@@ -210,7 +210,8 @@ Changes from the original GluePHP to specify request path & method to run from t
 
 I added the option to specify the request path and method on the command line so that it can for example be run from the command line.  I also added a new method 'CLI' for when run on the command line.
 
-```
+```php
+<?php
     static function stick($urls, $path = null, $method = null) {
 
         // check that method is valid
@@ -234,5 +235,6 @@ I added the option to specify the request path and method on the command line so
         if (empty($path) && array_key_exists('REQUEST_URI', $_SERVER)) {
             $path = $_SERVER['REQUEST_URI'];
         }
+?>
 ```
 
