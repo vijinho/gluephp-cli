@@ -27,7 +27,7 @@ Glue is BSD licensed.
 ### Installation
 
 ```
-$ git clone https://github.com/vijinho/gluephp-cli
+$ git clone git@github.com:vijinho/gluephp-cli.git 
 ```
 
 #### Apache Configuration
