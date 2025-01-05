@@ -29,7 +29,7 @@
  *
  * @author Joe Topjian <joe@topjian.net>
  * @author Vijay Mahrra <vijay@yoyo.org>
- * @see http://gluephp.com/
+ * @see https://github.com/vijinho/gluephp-cli
  * @see https://github.com/jtopjian/gluephp
  */
 class glue {
